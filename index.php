@@ -13,7 +13,6 @@
 <body>
 	<div class="container-fluid">
 		
-		<?php include "topbar.php"; ?>
 		<section id="introduccion">	
 
 			<div class="row">				
@@ -21,14 +20,15 @@
 				<?php include "sidebar.php"; ?>
 				
 				<div class="col">
+				
+				<?php include "topbar.php"; ?>
 
 					<div class="row">
 						<div class="col">
-														
-							<h4>Administrador de Proyectos y Desarrollador Web</h4>
+							<h4 class="subtitulo">Administrador de Proyectos y Desarrollador Web</h4>
 							<p align="justify">
 								Mi nombre es Gerardo A. López Vega, tengo 29 años de edad y soy Ingeniero en Sistemas Computacionales, egresé del Instituto Tecnológico de Acapulco en el año 2010 y desde entonces me he dedicado al desarrollo y a la implementación de sistemas de software, cuento con +7 años de experiencia desarrollando diversos proyectos basados en Tecnologías Web y Móviles.
-								<br>
+								<br><br>
 								Mi objetivo en general es crecer en todos los aspectos de mi vida, tanto profesional y personal, logrando el equilibrio necesario entre ellos para así alcanzar el éxito, siempre aprender de mis errores, seguir adelante y perseguir mis metas aunque a veces llegue a fallar o parezcan difíciles de alcanzar.
 							</p>
 							
@@ -46,7 +46,7 @@
 							</div>
 							<br>
 							<div class="row">
-								<div class="col">					
+								<div class="col info">					
 									
 									<div class="row">
 										<div class="col-1">
@@ -93,13 +93,15 @@
 
 		<section id="cursos">
 			
-			<?php include "topbar.php"; ?>
 			
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>
 				
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>
+					
 					<div class="row">				
 						<div class="col">
 							<h3><b>CURSOS Y DIPLOMADOS</b></h3>
@@ -107,7 +109,7 @@
 					</div>
 					<br>
 					<div class="row">
-						<div class="col">					
+						<div class="col info">					
 							
 							<div class="row">
 								<div class="col-1">
@@ -165,22 +167,23 @@
 						
 		</section>
 		
-		<section id="skills1">
-			
-			<?php include "topbar.php"; ?>		
+		<section id="skills1">			
 			
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>
 				
 				<div class="col">					
+					
+					<?php include "topbar.php"; ?>		
+					
 					<div class="row">				
-						<div class="col offset-1">
+						<div class="col ">
 							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
 						</div>
 					</div>			
 					<div class="row">
-						<div class="col offset-1">					
+						<div class="col info">					
 							<div class="row">									
 								<div class="col">
 									<p>
@@ -229,7 +232,35 @@
 									<h5>Desarrollo Móvil Android con Java </h5>					
 									<p>He realizado aplicaciones nativas para la plataforma Android, la cual trabaja con el lenguaje JAVA.</p>
 								</div>
-							</div>
+							</div>							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+						
+		</section>		
+
+		<section id="skills2">
+			
+			
+			<div class="row">
+				
+				<?php include "sidebar.php"; ?>
+				
+				<div class="col">					
+					
+					<?php include "topbar.php"; ?>		
+					
+					<div class="row">				
+						<div class="col ">
+							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
+						</div>
+					</div>	
+					<br>		
+					<div class="row">
+						<div class="col info">					
+							
 							<div class="row">
 								<div class="col-1">
 									<i class="fa fa-bookmark" aria-hidden="true"></i>
@@ -242,33 +273,7 @@
 									</p>
 								</div>
 							</div>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-						
-		</section>
 
-		<br><br>
-
-		<section id="skills2">
-			
-			<?php include "topbar.php"; ?>		
-			
-			<div class="row">
-				
-				<?php include "sidebar.php"; ?>
-				
-				<div class="col">					
-					<div class="row">				
-						<div class="col offset-1">
-							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
-						</div>
-					</div>			
-					<div class="row">
-						<div class="col offset-1">					
-							
 							<div class="row">
 								<div class="col-1">
 									<i class="fa fa-bookmark" aria-hidden="true"></i>
@@ -313,25 +318,26 @@
 			</div>
 						
 		</section>
-
-		<br>
 		
 		<section id="experiencia">
 			
-			<?php include "topbar.php"; ?>	
 
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>	
 
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>	
+					
 					<div class="row">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
-					</div>					
+					</div>		
+					<br>			
 					<div class="row">
-						<div class="col ">					
+						<div class="col info">					
 							<div class="row">									
 								<div class="col">
 									<!-- <p>
@@ -341,7 +347,7 @@
 							</div>
 							<div class="row">
 								<div class="col-1">
-									<i class="fa fa-bookmark" aria-hidden="true"></i>
+									<i class="fa fa-flag" aria-hidden="true"></i>
 								</div>				
 								<div class="col">
 									<h5>Universidad Hipócrates</h5>
@@ -384,27 +390,28 @@
 			</div>		
 		</section>
 
-		<br><br>
-
 		<section id="experiencia2">
 			
-			<?php include "topbar.php"; ?>	
 
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>	
 
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>	
+					
 					<div class="row">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
-					</div>					
+					</div>		
+					<br>			
 					<div class="row">
-						<div class="col ">							
+						<div class="col info">							
 							<div class="row">
 								<div class="col-1">
-									<i class="fa fa-bookmark" aria-hidden="true"></i>
+									<i class="fa fa-flag" aria-hidden="true"></i>
 								</div>				
 								<div class="col">
 									<h5>Universidad Hipócrates</h5>
@@ -434,28 +441,29 @@
 			</div>		
 		</section>
 
-		<br>
-
 		<section id="experiencia3">
 			
-			<?php include "topbar.php"; ?>	
 
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>	
 
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>	
+					
 					<div class="row">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
-					</div>					
+					</div>		
+					<br>			
 					<div class="row">
-						<div class="col ">
+						<div class="col info">
 
 							<div class="row">
 								<div class="col-1">
-									<i class="fa fa-bookmark" aria-hidden="true"></i>
+									<i class="fa fa-flag" aria-hidden="true"></i>
 								</div>				
 								<div class="col">
 									<h5>Savvy Systems (savvysystems.com.mx)</h5>
@@ -493,28 +501,29 @@
 			</div>		
 		</section>
 		
-		<br><br>
-
 		<section id="experiencia4">
 			
-			<?php include "topbar.php"; ?>	
 
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>	
 
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>	
+					
 					<div class="row">				
-						<div class="col ">
+						<div class="col info">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
-					</div>					
+					</div>	
+					<br>				
 					<div class="row">
 						<div class="col ">
 
 							<div class="row">
 								<div class="col-1">
-									<i class="fa fa-bookmark" aria-hidden="true"></i>
+									<i class="fa fa-flag" aria-hidden="true"></i>
 								</div>				
 								<div class="col">
 									<h5>Desiteg (desiteg.com)</h5>
@@ -556,28 +565,29 @@
 			</div>		
 		</section>
 
-		<br><br>
-
 		<section id="experiencia5">
 			
-			<?php include "topbar.php"; ?>	
 
 			<div class="row">
 				
 				<?php include "sidebar.php"; ?>	
 
 				<div class="col">
+					
+					<?php include "topbar.php"; ?>	
+					
 					<div class="row">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
-					</div>					
+					</div>	
+					<br>				
 					<div class="row">
-						<div class="col ">
+						<div class="col info">
 
 							<div class="row">
 								<div class="col-1">
-									<i class="fa fa-bookmark" aria-hidden="true"></i>
+									<i class="fa fa-flag" aria-hidden="true"></i>
 								</div>				
 								<div class="col">
 									<h5>Salud HDS como Consultor Java Web Junior</h5>
@@ -593,8 +603,7 @@
 				</div>
 			</div>		
 		</section>
-		
-		<br><br>
+	
 	</div>
 </body>
 </html>

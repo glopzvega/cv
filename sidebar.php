@@ -42,7 +42,7 @@
 				</div>				
 				<div class="col">
 					<h5>TELÉFONO / CELULAR:</h5>										
-					<p>(744) 301 6326 | (744) 225 4280</p>
+					<p>(744) 301 6326 <br> (744) 225 4280</p>
 				</div>
 			</div>
 			<div class="row">
