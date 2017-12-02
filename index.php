@@ -12,6 +12,8 @@
 </head>
 <body>
 	<div class="container-fluid">
+
+		<?php include "topbar_responsive.php"; ?>
 		
 		<section id="introduccion">	
 
@@ -25,10 +27,11 @@
 
 					<div class="row">
 						<div class="col">
-							<h4 class="subtitulo">Administrador de Proyectos y Desarrollador Web</h4>
+							<h4 class="subtitulo sidebar d-none d-sm-block">Administrador de Proyectos y Desarrollador Web</h4>
 							<p align="justify">
 								Mi nombre es Gerardo A. López Vega, tengo 29 años de edad y soy Ingeniero en Sistemas Computacionales, egresé del Instituto Tecnológico de Acapulco en el año 2010 y desde entonces me he dedicado al desarrollo y a la implementación de sistemas de software, cuento con +7 años de experiencia desarrollando diversos proyectos basados en Tecnologías Web y Móviles.
-								<br><br>
+							</p>
+							<p class="d-none d-sm-block">
 								Mi objetivo en general es crecer en todos los aspectos de mi vida, tanto profesional y personal, logrando el equilibrio necesario entre ellos para así alcanzar el éxito, siempre aprender de mis errores, seguir adelante y perseguir mis metas aunque a veces llegue a fallar o parezcan difíciles de alcanzar.
 							</p>
 							
