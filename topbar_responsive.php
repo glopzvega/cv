@@ -32,18 +32,21 @@
 									
 					<div class="col">
 						<!-- <h5>EMAIL:</h5> -->
-						<p><i class="fa fa-envelope" aria-hidden="true"></i> mcgalv@gmail.com</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i> 
+						<br> mcgalv@gmail.com</p>
 					</div>
 					<div class="col">
 						<!-- <h5>EMAIL:</h5> -->
-						<p><i class="fa fa-phone" aria-hidden="true"></i> (744) 225 4280</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i> 
+						<br> (744) 225 4280</p>
 					</div>
 				</div>
 				
 				<div class="row">	
 					<div class="col">
 						<!-- <h5>SITIO WEB:</h5>										 -->
-						<p><i class="fa fa-cloud" aria-hidden="true"></i> http://iozoft.com</p>
+						<p><i class="fa fa-cloud" aria-hidden="true"></i> <br> 
+						http://iozoft.com</p>
 					</div>
 				</div>
 			</div>
