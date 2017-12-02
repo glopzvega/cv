@@ -177,7 +177,7 @@
 					
 					<?php include "topbar.php"; ?>		
 					
-					<div class="row d-none d-sm-block">				
+					<div class="row">				
 						<div class="col ">
 							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
 						</div>
@@ -252,7 +252,7 @@
 					
 					<?php include "topbar.php"; ?>		
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col ">
 							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
 						</div>
