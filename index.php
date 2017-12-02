@@ -177,7 +177,7 @@
 					
 					<?php include "topbar.php"; ?>		
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col ">
 							<h3><b>HABILIDADES Y DESTREZAS</b></h3>
 						</div>
@@ -401,7 +401,7 @@
 					
 					<?php include "topbar.php"; ?>	
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
@@ -452,7 +452,7 @@
 					
 					<?php include "topbar.php"; ?>	
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
@@ -512,7 +512,7 @@
 					
 					<?php include "topbar.php"; ?>	
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col info">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
@@ -576,7 +576,7 @@
 					
 					<?php include "topbar.php"; ?>	
 					
-					<div class="row">				
+					<div class="row d-none d-sm-block">				
 						<div class="col ">
 							<h3><b>EXPERIENCIA PROFESIONAL</b></h3>
 						</div>
