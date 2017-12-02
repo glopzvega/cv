@@ -19,7 +19,7 @@
 				
 				<?php include "sidebar.php"; ?>
 				
-				<div class="col">
+				<div class="col-sm-8">
 				
 				<?php include "topbar.php"; ?>
 
@@ -98,7 +98,7 @@
 				
 				<?php include "sidebar.php"; ?>
 				
-				<div class="col">
+				<div class="col-sm-8">
 					
 					<?php include "topbar.php"; ?>
 					
@@ -173,7 +173,7 @@
 				
 				<?php include "sidebar.php"; ?>
 				
-				<div class="col">					
+				<div class="col-sm-8">					
 					
 					<?php include "topbar.php"; ?>		
 					
@@ -248,7 +248,7 @@
 				
 				<?php include "sidebar.php"; ?>
 				
-				<div class="col">					
+				<div class="col-sm-8">					
 					
 					<?php include "topbar.php"; ?>		
 					
@@ -326,7 +326,7 @@
 				
 				<?php include "sidebar.php"; ?>	
 
-				<div class="col">
+				<div class="col-sm-8">
 					
 					<?php include "topbar.php"; ?>	
 					

@@ -1,4 +1,4 @@
-<div class="col-4 sidebar">
+<div class="col-sm-4 sidebar d-none d-sm-block">
 	<div class="row imagen">
 		<div class="col">							
 			<picture class="foto">
