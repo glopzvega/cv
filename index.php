@@ -13,7 +13,7 @@
 <body>
 	<div class="container-fluid">
 
-		<?php include "topbar_responsive.php"; ?>
+		<?php include "splash.php"; ?>
 		
 		<section id="introduccion">	
 

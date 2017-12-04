@@ -11,6 +11,11 @@ body
 	color: #004085;
 }
 
+.gracias
+{
+	font-family: 'Satisfy', sans-serif;
+}
+
 .subtitulo
 {
 	color: gray;
@@ -19,6 +24,7 @@ body
 h3, h4
 {
 	color: gray;
+	display: inline-block;
 }
 
 ul
@@ -36,7 +42,7 @@ ul > li
 	font-size: 0.9em;
 	padding: 1em;
 	background-color: #2196f3;
-	color: white;
+	color: white;	
 }
 
 .fa
@@ -71,13 +77,15 @@ section
 .imagen
 {
 	padding-top: 4em;
+	text-align: center;
 }
 
 .foto > img
 {
-	width: 100%;
+	width: 80%;
 	border-radius: 50%;
 	border: 5px solid white;
+
 }
 
 @media print
